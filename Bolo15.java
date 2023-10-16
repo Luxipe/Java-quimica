@@ -12,7 +12,7 @@ public class Bolo15 {
                 double raizQuadrada = Math.sqrt(numero); // função double raiz quadrada = (numero)
                 System.out.println("A raiz quadrada de " + numero + " é " + raizQuadrada + "."); // a raiz quadrada de (numero) é a raiz quadrada.
             } else {
-                System.out.println("O número não é não negativo."); // digita no terminal O número não é não negativo quando o resultado do terminal for ( numero negativo).
+                System.out.println("O número é negativo."); // digita no terminal O número não é não negativo quando o resultado do terminal for (numero negativo).
             }
         }
     }
