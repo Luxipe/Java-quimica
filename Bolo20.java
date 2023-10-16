@@ -1,23 +1,25 @@
-package; Bolos;
+package Bolos;
 
 import java.util.Scanner;
 
 public class Bolo20 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Entre com a configuração eletrônica do átomo: ");
-        String configuracaoEletronica = scanner.nextLine();
+        // Cria um objeto Scanner para ler a entrada do usuário.
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Digite a configuração eletrônica: ");
+            String configuracaoEletronica = scanner.nextLine();
 
-        int totalEletrons = 0;
+            int totalEletrons = 0;
+            // Percorre cada caractere na configuração eletrônica para contar os dígitos.
+            for (int i = 0; i < configuracaoEletronica.length(); i++) {
+                if (Character.isDigit(configuracaoEletronica.charAt(i))) {
+                    // Se o caractere for um dígito, adiciona seu valor à contagem de elétrons.
+                    totalEletrons += Character.getNumericValue(configuracaoEletronica.charAt(i));
+                }
+            }
 
-        configuracaoEletronica = configuracaoEletronica.replace(" ", "");
-        String[] niveis = configuracaoEletronica.split("(?=[spdf])");
-
-        for (String nivel : niveis) {
-            int numEletrons = Integer.parseInt(nivel.substring(1));
-            totalEletrons += numEletrons;
+            // Exibe o resultado, informando o número total de elétrons.
+            System.out.println("O átomo possui " + totalEletrons + " elétrons.");
         }
-
-        System.out.println("O átomo possui " + totalEletrons + " elétrons.");
     }
 }
