@@ -16,7 +16,7 @@ package; Bolos;
                 // Calcula a potência dissipada.
                 double potencia = (Math.pow(tensao, 2)) / resistencia;
    
-                System.out.println("A potência dissipada é " + potencia + " watts (W).");
+                System.out.println("A potência dissipada é " + potencia + " watts (W)."); // o resultado final vai ser em a potencia dissipada(numero de watts(w).
             }
         }
     }
