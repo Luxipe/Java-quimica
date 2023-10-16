@@ -16,7 +16,7 @@ package; Bolos;
             // vai Calcular a força necessária.
             double forca = massa * aceleracao;
 
-            System.out.println("A força necessária é de " + forca + " newtons (N).");
+            System.out.println("A força necessária é de " + forca + " newtons (N)."); // o resultado final vai ser o numero de newtons da força.
         }
     }
 }
