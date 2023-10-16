@@ -1,9 +1,9 @@
-package; Bolos;
+package Bolos;
 
 import java.util.Scanner;
 
 public class Bolo12 {
-    public static void main(String[] args) {
+    Try public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Entre com a massa do objeto em kg: ");
         double massa = scanner.nextDouble();
