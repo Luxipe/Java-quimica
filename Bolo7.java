@@ -1,4 +1,4 @@
-package; Bolos;
+package Bolos;
 
 import java.util.Scanner;
 import java.lang.Math;
@@ -7,7 +7,7 @@ public class Bolo7{
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             // Solicita a altura da queda pro usuário.
-            System.out.print("Altura (metros): "); // vai falar pro usuario colocar a altura(metros).
+            System.out.print("Altura (metros): "); // vai falar pro usuario colocar a altura (metros).
             double altura = input.nextDouble(); // função da altura.
 
             // Aceleração devida à gravidade na Terra , vai ser 9.8
