@@ -1,4 +1,4 @@
-package; Bolos;
+package Bolos;
 
         public class bolo6 {
         public static void main(String[] args) {
