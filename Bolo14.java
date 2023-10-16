@@ -1,4 +1,4 @@
-package; Bolos;
+package Bolos;
 
 import java.util.Scanner;
 
