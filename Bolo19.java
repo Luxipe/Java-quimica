@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Bolo19 {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
-            System.out.print("Entre com a configuração eletrônica do átomo: "); // Entre com aconfiguração eletrônica do átomo o usuario vai colocar  o (numero).
+            System.out.print("Entre com a configuração eletrônica do átomo: "); // Entre com a configuração eletrônica do átomo o usuario vai colocar o (numero).
             String configuracaoEletronica = scanner.nextLine();
 
             int posicaoUltimoSubnivel = configuracaoEletronica.lastIndexOf(" ");
